@@ -1,0 +1,69 @@
+#VRML V2.0 utf8
+# Simplified visual model for SparkFun ROB-14451 TB6612FNG carrier interface.
+DEF REDPCB Appearance { material Material { diffuseColor 0.780 0.050 0.040 ambientIntensity 0.25 shininess 0.180 } }
+DEF BLACK Appearance { material Material { diffuseColor 0.020 0.020 0.018 ambientIntensity 0.25 shininess 0.350 } }
+DEF GOLD Appearance { material Material { diffuseColor 0.860 0.640 0.250 ambientIntensity 0.25 shininess 0.450 } }
+DEF WHITE Appearance { material Material { diffuseColor 0.920 0.920 0.860 ambientIntensity 0.25 shininess 0.150 } }
+Transform { translation 3.50000 3.50000 0.41339 children [
+  Shape { appearance USE REDPCB geometry Box { size 9.00000 9.00000 0.62992 } }
+] } # carrier-pcb
+Transform { translation 3.50000 3.50000 0.92520 children [
+  Shape { appearance USE BLACK geometry Box { size 2.59843 2.59843 0.39370 } }
+] } # tb6612-ic
+Transform { translation 3.50000 0.62992 0.76772 children [
+  Shape { appearance USE WHITE geometry Box { size 4.13386 0.39370 0.03150 } }
+] } # silk-label
+Transform { translation 0.00000 3.50000 0.86614 children [
+  Shape { appearance USE BLACK geometry Box { size 0.66929 7.79528 0.53150 } }
+] } # pin-header-body
+Transform { translation 0.00000 0.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 1.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 2.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 3.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 4.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 5.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 6.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 0.00000 7.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 3.50000 0.86614 children [
+  Shape { appearance USE BLACK geometry Box { size 0.66929 7.79528 0.53150 } }
+] } # pin-header-body
+Transform { translation 7.00000 0.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 1.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 2.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 3.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 4.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 5.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 6.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin
+Transform { translation 7.00000 7.00000 0.09843 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 1.77165 } }
+] } # header-pin

@@ -1,0 +1,9 @@
+(footprint "MountingHole_M2.5"
+	(version 20241229)
+	(generator "codex")
+	(layer "F.Cu")
+	(attr exclude_from_pos_files exclude_from_bom)
+	(property "Reference" "REF**" (at 0 -2.54 0) (layer "F.SilkS") hide (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "MountingHole_M2.5" (at 0 2.54 0) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
+	(pad "1" thru_hole circle (at 0.00 0.00) (size 2.70 2.70) (drill 2.70) (layers "*.Cu" "*.Mask"))
+)

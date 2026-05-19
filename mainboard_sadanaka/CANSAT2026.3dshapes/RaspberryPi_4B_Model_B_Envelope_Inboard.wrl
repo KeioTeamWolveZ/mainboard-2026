@@ -1,0 +1,163 @@
+#VRML V2.0 utf8
+# Simplified visual model for Raspberry Pi 4 Model B placement envelope.
+DEF RPIGREEN Appearance { material Material { diffuseColor 0.020 0.420 0.170 ambientIntensity 0.25 shininess 0.180 } }
+DEF BLACK Appearance { material Material { diffuseColor 0.020 0.020 0.018 ambientIntensity 0.25 shininess 0.350 } }
+DEF SILVER Appearance { material Material { diffuseColor 0.780 0.780 0.740 ambientIntensity 0.25 shininess 0.500 } }
+DEF GOLD Appearance { material Material { diffuseColor 0.860 0.640 0.250 ambientIntensity 0.25 shininess 0.450 } }
+DEF WHITE Appearance { material Material { diffuseColor 0.920 0.920 0.860 ambientIntensity 0.25 shininess 0.150 } }
+Transform { translation -10.14567 -13.43701 -3.46457 children [
+  Shape { appearance USE RPIGREEN geometry Box { size 22.04724 33.46457 0.62992 } }
+] } # rpi4b-pcb
+Transform { translation 0.50000 -9.50000 -1.73228 children [
+  Shape { appearance USE BLACK geometry Box { size 2.08661 20.00000 3.14961 } }
+] } # gpio-header-body
+Transform { translation -8.46457 -11.81102 -4.13386 children [
+  Shape { appearance USE BLACK geometry Box { size 5.51181 5.51181 0.49213 } }
+] } # bcm2711-soc
+Transform { translation -12.40157 -20.66929 -4.21260 children [
+  Shape { appearance USE BLACK geometry Box { size 4.72441 4.72441 0.43307 } }
+] } # ram-package
+Transform { translation -18.11024 -24.40945 -5.15748 children [
+  Shape { appearance USE SILVER geometry Box { size 5.51181 6.29921 3.14961 } }
+] } # usb-stack-a
+Transform { translation -18.11024 -15.74803 -5.15748 children [
+  Shape { appearance USE SILVER geometry Box { size 5.51181 6.29921 3.14961 } }
+] } # usb-stack-b
+Transform { translation -17.71654 -6.69291 -5.59055 children [
+  Shape { appearance USE SILVER geometry Box { size 6.29921 8.26772 3.93701 } }
+] } # ethernet
+Transform { translation -4.72441 -14.96063 -4.21260 children [
+  Shape { appearance USE WHITE geometry Box { size 1.18110 6.29921 0.47244 } }
+] } # camera-csi
+Transform { translation 0.00000 0.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -1.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -2.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -3.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -4.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -5.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -6.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -7.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -8.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -9.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -10.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -11.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -12.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -13.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -14.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -15.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -16.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -17.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -18.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 0.00000 -19.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 0.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -1.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -2.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -3.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -4.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -5.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -6.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -7.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -8.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -9.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -10.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -11.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -12.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -13.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -14.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -15.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -16.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -17.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -18.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation 1.00000 -19.00000 -1.57480 children [
+  Shape { appearance USE GOLD geometry Box { size 0.25197 0.25197 3.14961 } }
+] } # gpio-pin
+Transform { translation -19.79134 1.91732 -3.07087 children [
+  Shape { appearance USE SILVER geometry Box { size 1.25984 1.25984 0.06299 } }
+] } # mount-hole-marker
+Transform { translation -0.50000 1.91732 -3.07087 children [
+  Shape { appearance USE SILVER geometry Box { size 1.25984 1.25984 0.06299 } }
+] } # mount-hole-marker
+Transform { translation -19.79134 -20.91732 -3.07087 children [
+  Shape { appearance USE SILVER geometry Box { size 1.25984 1.25984 0.06299 } }
+] } # mount-hole-marker
+Transform { translation -0.50000 -20.91732 -3.07087 children [
+  Shape { appearance USE SILVER geometry Box { size 1.25984 1.25984 0.06299 } }
+] } # mount-hole-marker

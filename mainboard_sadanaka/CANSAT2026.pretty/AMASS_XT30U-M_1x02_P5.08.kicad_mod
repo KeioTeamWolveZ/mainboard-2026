@@ -1,0 +1,10 @@
+(footprint "AMASS_XT30U-M_1x02_P5.08"
+	(version 20241229)
+	(generator "codex")
+	(layer "F.Cu")
+	(attr through_hole)
+	(property "Reference" "REF**" (at 0 -2.54 0) (layer "F.SilkS") hide (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "AMASS_XT30U-M_1x02_P5.08" (at 0 2.54 0) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
+	(pad "1" thru_hole oval (at 0.00 0.00) (size 4.05 3.00) (drill 1.70) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole oval (at 5.08 0.00) (size 4.05 3.00) (drill 1.70) (layers "*.Cu" "*.Mask"))
+)

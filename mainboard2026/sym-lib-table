@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "CANSAT2026")(type "KiCad")(uri "${KIPRJMOD}/CANSAT2026.kicad_sym")(options "")(descr "CanSat 2026 readable schematic symbols"))
+)

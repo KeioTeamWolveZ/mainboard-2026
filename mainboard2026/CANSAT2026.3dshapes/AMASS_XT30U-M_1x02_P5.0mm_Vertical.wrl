@@ -1,0 +1,13 @@
+#VRML V2.0 utf8
+# Simplified visual model for AMASS XT30U-M vertical connector.
+DEF YELLOW Appearance { material Material { diffuseColor 0.960 0.720 0.060 ambientIntensity 0.25 shininess 0.250 } }
+DEF METAL Appearance { material Material { diffuseColor 0.820 0.780 0.640 ambientIntensity 0.25 shininess 0.450 } }
+Transform { translation 0.98425 -1.25984 1.65354 children [
+  Shape { appearance USE YELLOW geometry Box { size 3.74016 4.13386 3.30709 } }
+] } # xt30-body
+Transform { translation 0.00000 0.00000 0.66929 children [
+  Shape { appearance USE METAL geometry Box { size 0.62992 0.62992 2.04724 } }
+] } # pin-1
+Transform { translation 1.96850 0.00000 0.66929 children [
+  Shape { appearance USE METAL geometry Box { size 0.62992 0.62992 2.04724 } }
+] } # pin-2

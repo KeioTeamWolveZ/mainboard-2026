@@ -1,0 +1,39 @@
+#VRML V2.0 utf8
+# Simplified visual model for Murata OKL-T/6-W12N-C DC/DC converter.
+DEF OKLPCB Appearance { material Material { diffuseColor 0.060 0.340 0.120 ambientIntensity 0.25 shininess 0.180 } }
+DEF BLACK Appearance { material Material { diffuseColor 0.020 0.020 0.018 ambientIntensity 0.25 shininess 0.350 } }
+DEF METAL Appearance { material Material { diffuseColor 0.720 0.720 0.680 ambientIntensity 0.25 shininess 0.500 } }
+DEF GOLD Appearance { material Material { diffuseColor 0.860 0.640 0.250 ambientIntensity 0.25 shininess 0.450 } }
+Transform { translation 1.37402 2.00000 0.41339 children [
+  Shape { appearance USE OKLPCB geometry Box { size 4.13386 5.19685 0.62992 } }
+] } # converter-pcb
+Transform { translation 1.37402 2.00787 1.61417 children [
+  Shape { appearance USE BLACK geometry Box { size 2.28346 2.28346 1.77165 } }
+] } # inductor
+Transform { translation 2.75591 0.86614 0.94488 children [
+  Shape { appearance USE BLACK geometry Box { size 1.02362 1.02362 0.39370 } }
+] } # controller
+Transform { translation -0.31496 3.03150 1.02362 children [
+  Shape { appearance USE METAL geometry Box { size 0.86614 1.25984 0.78740 } }
+] } # output-cap
+Transform { translation 0.00000 0.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
+Transform { translation 1.74803 0.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
+Transform { translation 0.00000 2.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
+Transform { translation 1.74803 2.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
+Transform { translation 2.74803 3.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
+Transform { translation 1.74803 4.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
+Transform { translation 0.00000 4.00000 0.07874 children [
+  Shape { appearance USE GOLD geometry Box { size 0.28346 0.28346 1.65354 } }
+] } # through-pin
