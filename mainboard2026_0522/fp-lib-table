@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cansat-2022")(type "KiCad")(uri "${KIPRJMOD}/cansat-2022.pretty")(options "")(descr ""))
+  (lib (name "CANSAT2026")(type "KiCad")(uri "${KIPRJMOD}/CANSAT2026.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)
