@@ -3296,250 +3296,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:CH340N"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CH340N"
-				(at 7.62 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
-				(at -3.81 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/inteface/CH340N/ch340n.pdf"
-				(at -2.54 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB serial converter, 2Mbps, UART, SOP-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "USB UART Serial Converter Interface"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOP*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CH340N_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CH340N_1_1"
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "UD+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "UD-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Library:Generic_I2C_Device"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6467,12 +6223,6 @@
 		(uuid "8afb12e8-ca3b-4217-b617-fce466ca6202")
 	)
 	(junction
-		(at 129.54 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c1a2d08-294e-4ffb-ac42-16104627e1b8")
-	)
-	(junction
 		(at 396.24 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6591,14 +6341,6 @@
 		(uuid "1e65dcb9-e70d-4eea-be8a-e01ab26f91a9")
 	)
 	(no_connect
-		(at 154.94 101.6)
-		(uuid "2108b52b-2b64-4b92-b285-065c58dfbf81")
-	)
-	(no_connect
-		(at 139.7 217.17)
-		(uuid "295abb85-905f-4ad7-b118-aed0b6cd6a19")
-	)
-	(no_connect
 		(at 384.81 48.26)
 		(uuid "2afc5de0-6983-42e8-966a-318895d2ab1e")
 	)
@@ -6645,10 +6387,6 @@
 	(no_connect
 		(at 205.74 124.46)
 		(uuid "6e4bf02a-887d-4f18-bce8-a14bdc28742c")
-	)
-	(no_connect
-		(at 149.86 109.22)
-		(uuid "70793142-8acf-47c6-8f81-996a9dfdc5df")
 	)
 	(no_connect
 		(at 325.12 154.94)
@@ -6794,16 +6532,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 201.93) (xy 116.84 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd46241-8885-4903-9eec-dc8c2576695e")
-	)
-	(wire
-		(pts
 			(xy 321.31 124.46) (xy 337.82 124.46)
 		)
 		(stroke
@@ -6814,13 +6542,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 217.17) (xy 119.38 217.17)
+			(xy 144.78 101.6) (xy 154.94 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11ab1708-9e1e-4dc0-b810-b0f770a7c0b6")
+		(uuid "102c90a8-ae24-420c-a8fe-ed3be937ee47")
 	)
 	(wire
 		(pts
@@ -6831,16 +6559,6 @@
 			(type default)
 		)
 		(uuid "14605773-b953-457a-a450-1d1416e1522a")
-	)
-	(wire
-		(pts
-			(xy 129.54 199.39) (xy 129.54 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "154703a1-6143-400d-b06e-f7f28cc7fc4f")
 	)
 	(wire
 		(pts
@@ -6904,16 +6622,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 214.63) (xy 119.38 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fa5325-1673-463f-a6a7-ee75120e7a00")
-	)
-	(wire
-		(pts
 			(xy 53.34 68.58) (xy 53.34 73.66)
 		)
 		(stroke
@@ -6974,23 +6682,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 154.94 104.14)
+			(xy 144.78 104.14) (xy 154.94 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "210a4a09-a61f-4ea5-9456-c4b9b1c5f5c6")
-	)
-	(wire
-		(pts
-			(xy 116.84 201.93) (xy 116.84 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2260578c-2c6a-49ee-b467-3bad8ad5e872")
 	)
 	(wire
 		(pts
@@ -7094,16 +6792,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 209.55) (xy 119.38 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d4029ab-3472-4a96-a0b1-296916abe845")
-	)
-	(wire
-		(pts
 			(xy 398.78 142.24) (xy 396.24 142.24)
 		)
 		(stroke
@@ -7204,7 +6892,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 154.94 109.22)
+			(xy 144.78 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7824,23 +7512,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 154.94 114.3)
+			(xy 144.78 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a133a2c2-beab-495a-84bc-acc1c21902cf")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 154.94 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1606ecf-f4a5-4c90-911f-4aaec22e46b8")
-	)
-	(wire
-		(pts
-			(xy 129.54 201.93) (xy 129.54 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26bbba2-7e9d-44d9-9a93-b59b0f52211b")
 	)
 	(wire
 		(pts
@@ -8144,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 154.94 111.76)
+			(xy 144.78 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8312,6 +8000,16 @@
 		)
 		(uuid "0555adbe-c571-4914-9bbf-c4920e40e42c")
 	)
+	(label "LORA_RX"
+		(at 144.78 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "062ad698-d22c-464c-be87-1310844e7436")
+	)
 	(label "LORA_TX"
 		(at 398.78 129.54 0)
 		(effects
@@ -8363,7 +8061,7 @@
 		(uuid "14c11f91-6990-46b0-99b7-c25212959486")
 	)
 	(label "SEP_2"
-		(at 149.86 114.3 180)
+		(at 144.78 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8381,6 +8079,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ecef7b1-502b-492f-8bdd-7b15028658a1")
+	)
+	(label "LORA_TX"
+		(at 144.78 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "225fdb9b-c104-4259-9a5a-7e8e3c514012")
 	)
 	(label "ANALOG"
 		(at 340.36 176.53 0)
@@ -8432,16 +8140,6 @@
 		)
 		(uuid "29341d35-93b3-4740-9b10-17fa49ee8f97")
 	)
-	(label "LORA_RX"
-		(at 139.7 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fff45d6-04a2-4c9c-8f22-aab78bdacb40")
-	)
 	(label "SPI0_SCLK"
 		(at 144.78 124.46 0)
 		(effects
@@ -8472,6 +8170,16 @@
 		)
 		(uuid "31db47c4-edca-4f28-9389-c269bfbcac35")
 	)
+	(label "RESET"
+		(at 144.78 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "335f05ee-54f1-44ac-aa5d-3a43737d9f6b")
+	)
 	(label "3V3"
 		(at 340.36 173.99 0)
 		(effects
@@ -8481,16 +8189,6 @@
 			(justify left bottom)
 		)
 		(uuid "351007fd-126f-457c-9619-4b664e99d420")
-	)
-	(label "DM2"
-		(at 119.38 217.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ba62436-a499-4a79-a5ae-55f6af111b06")
 	)
 	(label "SPI0_CE0"
 		(at 252.73 224.79 0)
@@ -8622,16 +8320,6 @@
 		)
 		(uuid "763f4ec4-8bd6-49c6-bbcb-7bf6c91ce6b3")
 	)
-	(label "RESET"
-		(at 149.86 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76f10080-756a-4605-bd3d-dab6019d6a85")
-	)
 	(label "SW"
 		(at 68.58 215.9 180)
 		(effects
@@ -8692,18 +8380,8 @@
 		)
 		(uuid "83a62f52-c607-493c-acfc-6dcb3e632a3d")
 	)
-	(label "DP2"
-		(at 119.38 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8606a16f-757b-410f-b06d-bc638df87dbd")
-	)
 	(label "SEP_1"
-		(at 149.86 111.76 180)
+		(at 144.78 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8733,7 +8411,7 @@
 		(uuid "8d6cfbf5-56e4-48eb-826c-152bce42f810")
 	)
 	(label "SW"
-		(at 154.94 99.06 180)
+		(at 144.78 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8931,16 +8609,6 @@
 			(justify right bottom)
 		)
 		(uuid "e643a5d9-a26d-4653-a5bf-e637db09ff18")
-	)
-	(label "LORA_TX"
-		(at 139.7 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6ce2dcf-afa6-4b49-b105-7eb4179bffe0")
 	)
 	(label "MOTOR1_OUT1"
 		(at 163.83 50.8 180)
@@ -10527,84 +10195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 222.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "247a65b9-1b8c-4730-994f-2a5ea6968983")
-		(property "Reference" "#PWR056"
-			(at 129.54 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49b4bdfa-8afd-464b-a20d-e3b313cca7c4")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 317.5 173.99 0)
 		(unit 1)
@@ -11197,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 38.1 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13138,88 +12728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 107.95 214.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a5bbdf7-c255-43d8-8cd9-c76bcd85bea9")
-		(property "Reference" "J6"
-			(at 105.41 214.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 105.41 217.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 107.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 107.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f30c2312-8f69-4f79-a0a1-26af0cebe0b1")
-		)
-		(pin "2"
-			(uuid "a29f7e37-e467-4eac-894f-63c5e96e482a")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 337.82 87.63 0)
 		(unit 1)
@@ -14334,185 +13842,6 @@
 			(project "mainboard2026_0522"
 				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 133.35 201.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a25bcd2d-bef8-4f5f-aef2-ad93ff2a21d2")
-		(property "Reference" "C7"
-			(at 133.35 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 133.35 196.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 129.54 202.8952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 133.35 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d8ffc9c-f836-42fc-baf7-ccacf5f8ffe8")
-		)
-		(pin "2"
-			(uuid "97d80d2c-87ad-4689-a527-e0adef89b528")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_USB:CH340N")
-		(at 129.54 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a277e109-ff72-48f6-a963-15a545de37d6")
-		(property "Reference" "U8"
-			(at 131.7341 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CH340N"
-			(at 131.7341 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 125.73 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/inteface/CH340N/ch340n.pdf"
-			(at 127 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB serial converter, 2Mbps, UART, SOP-8"
-			(at 129.54 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "541403e1-7dc6-4b61-b7c0-2f1bea045d3c")
-		)
-		(pin "2"
-			(uuid "2235e9d1-0c2b-46f4-a281-8792b85a00c0")
-		)
-		(pin "5"
-			(uuid "a9da42da-1b8f-4623-82db-6e68164a814d")
-		)
-		(pin "1"
-			(uuid "7dcb8646-38d0-42e1-9adf-1b1ce7b51fde")
-		)
-		(pin "6"
-			(uuid "0e8146aa-e0bc-4379-84d4-c2fce5cb3a74")
-		)
-		(pin "3"
-			(uuid "60252abf-505a-4947-b230-1f825e20d100")
-		)
-		(pin "4"
-			(uuid "066692e4-69c5-49cf-8acc-bd2a44dcf3bf")
-		)
-		(pin "7"
-			(uuid "ae049a44-5b31-4031-b833-0de6dbecaf68")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15783,84 +15112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 129.54 199.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c705d382-f4af-4709-8f21-9ff2e97033c9")
-		(property "Reference" "#PWR055"
-			(at 129.54 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 129.54 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc156137-45c2-4d7f-b7a3-d7212f4c2b64")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 334.01 173.99 270)
 		(unit 1)
@@ -16684,7 +15935,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 38.735 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16894,84 +16145,6 @@
 			(project "mainboard2026_0522"
 				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 201.93 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e63fdf06-ab36-4e5a-bcea-7b7bfe13ec25")
-		(property "Reference" "#PWR060"
-			(at 137.16 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e6eb608-bfeb-4385-88f2-9d1973ef8d9a")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
