@@ -5027,6 +5027,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VCC_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "motor:motor"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6453,6 +6592,12 @@
 		(uuid "8d27d305-74f5-4465-9063-3729551ff9fd")
 	)
 	(junction
+		(at 209.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dba97e4-a8ab-4f12-a2d6-a00d640b28d7")
+	)
+	(junction
 		(at 208.28 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6475,12 +6620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "938b5c27-32db-4350-9e5a-94b01a8d4cd0")
-	)
-	(junction
-		(at 391.16 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a038743c-f33e-43f0-95f6-d86e8da00fb4")
 	)
 	(junction
 		(at 394.97 81.28)
@@ -6862,7 +7001,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 88.9) (xy 210.82 88.9)
+			(xy 208.28 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6889,6 +7028,16 @@
 			(type default)
 		)
 		(uuid "1f773149-f7fb-4308-9e0a-b48deb0fad1f")
+	)
+	(wire
+		(pts
+			(xy 209.55 87.63) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc60d41-044c-41a9-b219-3b0a6b11363b")
 	)
 	(wire
 		(pts
@@ -7322,6 +7471,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 87.63) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1e4561-d4d8-4313-a312-449c39658803")
+	)
+	(wire
+		(pts
 			(xy 53.34 76.2) (xy 53.34 80.01)
 		)
 		(stroke
@@ -7652,6 +7811,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 86.36) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b18e82-16ec-4259-8455-fb63e79f668e")
+	)
+	(wire
+		(pts
 			(xy 386.08 87.63) (xy 386.08 92.71)
 		)
 		(stroke
@@ -7672,7 +7841,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 78.74) (xy 391.16 78.74)
+			(xy 389.89 78.74) (xy 392.43 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7739,16 +7908,6 @@
 			(type default)
 		)
 		(uuid "a670e272-5804-4147-8a84-e736520b75fe")
-	)
-	(wire
-		(pts
-			(xy 391.16 78.74) (xy 389.89 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a75a918e-a69a-4777-855b-90aea3594c5e")
 	)
 	(wire
 		(pts
@@ -8002,6 +8161,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9410b9d-b27c-4bdc-85bc-c2d54cfce59c")
+	)
+	(wire
+		(pts
 			(xy 382.27 87.63) (xy 386.08 87.63)
 		)
 		(stroke
@@ -8209,6 +8378,16 @@
 			(type default)
 		)
 		(uuid "f9c6f2be-3cdf-44c6-807b-f00b82d2544f")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf97510-035b-437a-a2f5-c78ae7597687")
 	)
 	(label "SPI0_MOSI"
 		(at 144.78 127 0)
@@ -10460,6 +10639,85 @@
 			(project "mainboard2026_0522"
 				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_1")
+		(lib_id "power:VCC")
+		(at 214.63 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2613e353-2cf4-4b0d-9a51-b0279ff7bcf3")
+		(property "Reference" "#PWR040"
+			(at 214.63 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 214.63 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ecd5504-7e46-46e7-8abc-71307261da92")
+		)
+		(instances
+			(project "mainboard2026_0522"
+				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13306,84 +13564,6 @@
 			(project "mainboard2026_0522"
 				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 391.16 78.74 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c875d1d-1b31-460c-94bb-ae8b6d706eb2")
-		(property "Reference" "#FLG01"
-			(at 391.16 80.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 391.16 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 391.16 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98acf2cb-4b8f-41d2-888f-28fe912ba91f")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)

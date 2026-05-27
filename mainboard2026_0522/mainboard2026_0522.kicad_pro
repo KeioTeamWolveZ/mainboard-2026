@@ -198,10 +198,6 @@
           ""
         ],
         [
-          "silk_overlap|172928571|109370000|0f282811-5a8f-4bfc-9d6f-edef63fcedeb|533d32ed-e956-4e58-b8e3-4abf9e3cea08",
-          ""
-        ],
-        [
           "silk_overlap|190760000|109160000|5e288126-ceba-4971-99be-e726b6047e90|9aa903db-fb85-44de-a211-e90b0954070b",
           ""
         ],
@@ -867,7 +863,7 @@
         "uuid": "1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
       }
     ],
-    "used_designators": "#FLG3-5",
+    "used_designators": "#PWR40",
     "variants": []
   },
   "sheets": [
