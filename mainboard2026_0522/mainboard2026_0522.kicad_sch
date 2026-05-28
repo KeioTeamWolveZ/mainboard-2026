@@ -9780,7 +9780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S6B-ZR-SM4A-TF_1x06-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "CANSAT2026:JST_ZH_B6B-ZR_1x06_P1.50mm_Horizontal"
 			(at 330.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14555,7 +14555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S6B-ZR-SM4A-TF_1x06-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "CANSAT2026:JST_ZH_B6B-ZR_1x06_P1.50mm_Horizontal"
 			(at 330.2 151.13 0)
 			(hide yes)
 			(show_name no)
