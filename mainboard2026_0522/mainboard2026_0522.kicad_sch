@@ -6248,12 +6248,6 @@
 		(uuid "6e51f9d9-7ed6-41b7-8690-60484909a01a")
 	)
 	(junction
-		(at 298.45 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a07f6a3-9f69-43ae-b147-e4a2349f4f7c")
-	)
-	(junction
 		(at 205.74 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6360,12 +6354,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "848dcf7a-23e7-4c6f-8929-8567c5263b2d")
-	)
-	(junction
-		(at 290.83 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "849b13ad-1074-4277-b8b4-0a121270818d")
 	)
 	(junction
 		(at 123.19 245.11)
@@ -6864,26 +6852,6 @@
 			(type default)
 		)
 		(uuid "22f9a90f-e70f-47b2-8bed-1dfe20288eec")
-	)
-	(wire
-		(pts
-			(xy 298.45 146.05) (xy 298.45 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2314e087-4fba-4db0-a025-524c8c6691ff")
-	)
-	(wire
-		(pts
-			(xy 290.83 146.05) (xy 290.83 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b59b2f-bc2a-4353-b778-fc5a69117a3d")
 	)
 	(wire
 		(pts
@@ -7837,7 +7805,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 156.21) (xy 325.12 156.21)
+			(xy 307.34 156.21) (xy 325.12 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7854,16 +7822,6 @@
 			(type default)
 		)
 		(uuid "c13f8ef8-39ac-492b-9063-330056c8866e")
-	)
-	(wire
-		(pts
-			(xy 287.02 146.05) (xy 290.83 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c18b01ed-d1d7-49b5-9973-5f3bb1c430e7")
 	)
 	(wire
 		(pts
@@ -7914,16 +7872,6 @@
 			(type default)
 		)
 		(uuid "c63e7dc0-0bd8-40e3-bb56-16fcccb898f1")
-	)
-	(wire
-		(pts
-			(xy 298.45 146.05) (xy 325.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e6bda3-2dee-424e-bafe-cff061853501")
 	)
 	(wire
 		(pts
@@ -8257,7 +8205,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 146.05) (xy 298.45 146.05)
+			(xy 287.02 146.05) (xy 325.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8665,8 +8613,8 @@
 		)
 		(uuid "9157550a-f7ad-4a96-8c15-d584f52d6aa6")
 	)
-	(label "TDF1_XSHUT"
-		(at 311.15 156.21 180)
+	(label "TDF2_XSHUT"
+		(at 307.34 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9891,7 +9839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S6B-ZR-SM4A-TF_1x06-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "CANSAT2026:JST_ZH_B6B-ZR_1x06_P1.50mm_Horizontal"
 			(at 330.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12704,86 +12652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 302.26 151.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69e3f9a1-b698-4770-8a4a-a5c699902d90")
-		(property "Reference" "R15"
-			(at 302.26 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 302.26 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 302.26 149.352 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 302.26 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef117533-2159-4af3-a20e-53c2c4e93186")
-		)
-		(pin "2"
-			(uuid "d6d8df6b-c7ef-40b9-aa3f-1ceb4de0ca14")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:XL4015")
 		(at 146.05 243.84 0)
 		(unit 1)
@@ -14745,7 +14613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S6B-ZR-SM4A-TF_1x06-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "CANSAT2026:JST_ZH_B6B-ZR_1x06_P1.50mm_Horizontal"
 			(at 330.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -17106,86 +16974,6 @@
 			(project "mainboard2026_0522"
 				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 294.64 153.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbed2241-7576-4548-8707-d90453bdcc8e")
-		(property "Reference" "R14"
-			(at 294.64 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 294.64 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 294.64 151.892 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1c64d71-1802-4d9a-8290-6005313af84d")
-		)
-		(pin "2"
-			(uuid "6bed77b4-bc54-401d-a49b-11a8233b4fb1")
-		)
-		(instances
-			(project "mainboard2026_0522"
-				(path "/1476b0f4-e0d9-4b9a-b2f2-db212dad2049"
-					(reference "R14")
 					(unit 1)
 				)
 			)
